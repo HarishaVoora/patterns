@@ -1,0 +1,8 @@
+n=4
+count=0
+for i in range(n,0,-1):
+  count=count+i
+for i in range(0,n):
+  print(count,end="")
+  count=count-1
+print()
